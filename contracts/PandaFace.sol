@@ -10,7 +10,8 @@ import "@openzeppelin/contracts/token/ERC20/ERC20Pausable.sol";
 * More granular access control can be added to further separate responsabilities between seizer(s) and minter(s).
 * Token can be paused for emergency shutdown.
 */
-contract PandaFace is ERC20Mintable, ERC20Pausable, ERC20Detailed {
+contract PandaFace is ERC20Mintable, ERC20Pausable, ERC20Detailed("PandaFace", "PF", 2) {
+
   /**
   * @dev Emitted when `value` tokens are seized from one account (`from`) to
   * be sent to another (`to`).
