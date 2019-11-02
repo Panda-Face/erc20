@@ -1,0 +1,19 @@
+{
+  "name": "erc20",
+  "version": "0.1.0",
+  "description": "Panda-Face token, erc20 implementation",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "SylTi <sylti@protonmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^2.4.0",
+    "truffle": "^5.0.43"
+  }
+}
