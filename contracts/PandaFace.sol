@@ -49,7 +49,7 @@ contract PandaFace is ERC20Mintable, ERC20Pausable, ERC20Detailed("Panda-Face EU
   * @dev Burn tokens `amount` from `from`
   *
   * This is a public function that can only be called by address having the minter privilege
-  * Emits 2 events: {Transfer} and {Seized}
+  * Emits 2 events: {Transfer} and {Burned}
   *
   * Requirements:
   *
